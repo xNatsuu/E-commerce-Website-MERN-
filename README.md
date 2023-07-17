@@ -9,12 +9,12 @@ Besides that the payment method used in this project is Stripe , I have accessed
 
 1)For running the application 
 
-For Backend  -npm i 
-            -npm run dev
+For Backend  -1)npm i 
+            -2)npm run dev
               
 For Frontend -cd frontend  
-              -npm i
-              -npm start
+              -1)npm i
+              -2)npm start
 
 
 2)Env Variables
