@@ -66,8 +66,7 @@ const UserOptions = ({user}) => {
       function logoutUser() {
         
         dispatch(logout());
-        localStorage.removeItem("token");
-        window.location = '/login';
+
         alert.success("logged out");
       }
 
@@ -85,7 +84,7 @@ const UserOptions = ({user}) => {
         icon={
           <img
             className="speedDialIcon"
-            src={user.avatar.url ? user.avatar.url : "/Profile.png"}
+            src={user.avatar.url ? user.avatar.url : "../../../images/Profile.png"}
             alt="Profile"
           />
         }
